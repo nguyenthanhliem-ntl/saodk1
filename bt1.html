@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let a = prompt("");
+        // let b = prompt("");
+        // if(a%b==0) {
+        //     alert('co')
+        // }else{
+        //     alert("khong")
+        // }
+
+// let toan = prompt(" ")
+// let ly = prompt("")
+// let hoa = prompt("");
+// if(toan >=5 && ly >=5 && hoa >=5) {
+//     alert("du")
+// }else {
+//     alert('khong du')
+// }
+
+
+// let a = parseInt(prompt());
+// if(a>0) {
+//     alert(" > 0");
+// }else if(a<0) {
+//     alert("<0")
+// }else {
+//     alert("=0")
+// }
+
+// let a = prompt();
+// let b = prompt();
+// let c = prompt();
+// document.write("gia tri lon nhat = " + a+b+c)
+
+
+let a = parseFloat(prompt("toan 1"))
+let b = parseFloat(prompt("li 1"))
+let c = parseFloat(prompt("hoa 1"))
+let d = parseFloat(prompt("toan 2"))
+let e = parseFloat(prompt("ly 2"))
+let f = parseFloat(prompt("hoa 2"))
+let dgk = (a+b+c)/3;
+let dck = (dgk+(d+e+f)/3)/2;
+if( dck <5 && dck>0){
+    alert("hs yeu");
+}else if (dck<6.5){
+alert("hs tb")
+}else if(dck<8) {
+    alert("hs kha")
+}else if(dck <=10) {
+    alert("hs gioi")
+}else{
+    alert("khong co")
+}
+
+    </script>
+</body>
+</html>
